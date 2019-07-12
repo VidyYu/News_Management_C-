@@ -1,0 +1,195 @@
+@charset "utf-8";
+html{
+	overflow-x: hidden;
+}
+body {
+	font-size: 12px;
+	line-height: 14px;
+	color: #110F0F;
+	margin: 0px;
+	text-decoration: none; 
+}
+#title {
+	margin: 0px;
+	padding: 0px;
+	height: 28px;
+	width: 700px;
+	border-bottom: 1px solid #222121;
+} 
+ #datatable {
+	margin: 0;
+	padding: 0;
+	width: 700px;
+}
+.data {
+	margin: 20px;
+	padding: 0;
+	width: 600px;
+	border: 1px solid #141313;
+	border-collapse: collapse;
+}
+.data th {
+	background-image: url(../images/line.jpg);
+	background-repeat: repeat-x;
+	height: 34px;
+	margin-left: 4px;
+	border: 1px solid #050505;
+}
+.data td {
+	line-height: 26px;
+	text-align: center;
+}
+.data a:link, .data a:visited {
+	text-decoration: none;
+	color: #231F20;
+}
+.data a:hover, .data a:active {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+
+
+
+#formitem {
+	width: 680px;
+	margin-left: 20px;
+	padding: 0;
+	margin-top: 10px;
+}
+#formitem table {
+	line-height: 26px;
+	margin: 0;
+	padding: 0;
+	width: 500px;
+	border: none;
+
+}
+#formitem table tr td {
+	border-bottom: 1px dotted #CCC;
+}
+.c1 {
+	text-align: right;
+	width: 46px;
+	margin: 0px;
+	padding-right: 10px;
+}
+.c2 {
+	margin: 0px;
+	padding-left: 5px;
+}
+.btn {
+	color: #231F20;
+	background-color: #F5F5F5;
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	border: 1px solid #CCCCCC;
+}
+#form1 div #news {
+	padding: 10px;
+	width: 680px;
+}
+.newstitle {
+	font-size: 16px;
+	line-height: 24px;
+	color: #231F20;
+	text-align: center;
+}
+.newsinfo {
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.newsphoto {
+	width: 300px;
+	padding: 5px;
+}
+.newsbody {
+	font-size: 14px;
+	line-height: 24px;
+	color: #666666;
+	width: 650px;
+}
+.newsfile {
+	text-align: right;
+	padding-right: 0px;
+	padding-left: 10px;
+	margin-right: 50px;
+}
+.newsfile a {
+	text-decoration: none;
+	color: #666666;
+	font-size: 14px;
+}
+
+
+
+#newsimg {
+	text-align: center;
+}
+
+.gvcss{
+	width: 95%;
+	padding: 0;
+	margin: 10px;
+	color: #666666;
+	border:1px soild #ccc;
+	border-collapse: collapse;
+		
+}
+.gvcss a:link,.gvcss a:visited{
+	color: #666;
+	text-decoration: none;
+}
+.gvcss a:hover,.gvcss a:active{
+	color: #f00;
+	text-decoration: none;
+}
+.gvheadercss{
+	background-image: url(../images/line.jpg);
+	background-repeat: repeat-x;
+	height: 34px;
+	text-align: left;
+}
+.gvheadercss th{
+	padding: 0px 0px 0px 10px;
+}
+.gvrowcss{
+	line-height: 26px;
+	text-align: left;
+}
+.gvrowcss td{
+	padding: 0px 0px 0px 10px;
+}
+.gvalternatingrowcss{
+	background-color: #f7f6f3;
+	line-height: 26px;
+}
+.gvalternatingrowcss td{
+	padding: 0px 0px 0px 10px;
+}
+.gvselectrowcss{
+	background-color: #999;
+	line-height: 26px;
+	padding: 0px 0px 0px 10px;
+}
+.gvpagecss{
+	background-image: url(../images/line.jpg);
+	background-repeat: repeat-x;
+	height: 30px;
+	text-align: center;
+	padding-right: 30px;
+	
+}
+.gvpagecss table{
+	margin: 0 auto;
+	
+}
+.control90{
+	width: 90%;
+	margin: 0px 0px 0px 5px;
+}
+
+
